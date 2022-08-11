@@ -5,6 +5,7 @@ import MultiStepProgressBar from './Components/MultiStepProgressBar/MultiStepPro
 function App() {
   return (
     <div className='container'>
+      <h1 className="m-4">Account Setup</h1>
       <Tabs>
           <MultiStepProgressBar/>
           <PersonalDetails />
